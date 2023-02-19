@@ -223,7 +223,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 98%;
-  height: 350px;
+  height: 360px;
   margin-top: 20px;
   margin-left: 13px;
 }
@@ -287,7 +287,7 @@
 
 .field .context .profile .user {
   width: 100%;
-  height: 130px;
+  height: 140px;
   border-radius: 4px;
   background: #E3F0FF;
 }
@@ -323,7 +323,7 @@
   border: none;
   outline: none;
   width: 90%;
-  height: 20px;
+  height: 30px;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#127FFF), to(#0067FF));
   background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
@@ -337,7 +337,7 @@
   border: none;
   outline: none;
   width: 90%;
-  height: 20px;
+  height: 30px;
   color: #1C1C1C;
   background: #FFFFFF;
   border-radius: 6px;
@@ -358,140 +358,251 @@
   background: #55BDC3;
 }
 
-.items {
+.content {
   height: 230px;
 }
 
-.items .contextItem {
+.content .items {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .items .dealContext {
+  height: inherit;
+  width: 25%;
+  border-right: 1px solid #DADADA;
+}
+
+.content .items .dealContext .description {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.content .items .dealContext .description g p {
+  font-weight: 400;
+  font-size: 17px;
+  color: #8B96A5;
+}
+
+.content .items .dealContext .description .timing {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.content .items .dealContext .description .timing .day {
+  width: 45px;
+  height: 50px;
+  background: #606060;
+  border-radius: 4px;
+  color: white;
+  line-height: 17px;
+}
+
+.content .items .dealContext .description .timing .day h3 {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.content .items .dealContext .description .timing .day span {
+  font-size: 12px;
+}
+
+.content .items .dealContext .description .timing .time {
+  margin-left: 8px;
+}
+
+.content .items .dealItems {
+  height: inherit;
+  width: 15%;
+  border-right: 1px solid #DADADA;
+}
+
+.content .items .dealItems .image {
+  width: 150px;
+  height: 130px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.content .items .dealItems .image .watch {
+  width: 120px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.content .items .dealItems p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content .items .dealItems .deduction {
+  width: 62px;
+  height: 28px;
+  background: #FFE3E3;
+  border-radius: 29px;
+  margin: 8px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #EB001B;
+  line-height: 30px;
+}
+
+.content {
+  height: 230px;
+}
+
+.content .items {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .items .context {
+  background-image: url(/img/image92.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+  margin-top: 0;
+  height: inherit;
+  width: 33%;
+  border-right: 1px solid #DADADA;
+}
+
+.content .items .context .outdoor {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.content .items .context .outdoor h2 {
+  width: 70%;
+}
+
+.content .items .accessories {
+  width: 100%;
+}
+
+.content .items .accessories .homeOutdoors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.content .items .accessories .homeOutdoors .commerce {
+  border-top: 1px solid #DADADA;
+}
+
+.content .items .accessories .homeOutdoors .dealItem {
+  height: 115px;
+  width: 25%;
+  border-right: 1px solid #DADADA;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools {
+  margin: 10px auto;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools p {
+  font-size: 16px;
+  height: 30px;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools span {
+  color: #8B96A5;
+  font-size: 14px;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools .img {
+  margin-top: 10px;
+}
+
+.content {
   height: 230px;
 }
 
-.items .contextItem .categories {
-  width: 25%;
+.content .items {
   height: inherit;
-  border-right: 1px solid #DEE2E7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.items .contextItem .categories .contentItem {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.items .contextItem .categories .contentItem .timing {
-  width: 75%;
-  height: 50px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  margin-top: 15px;
-}
-
-.items .contextItem .categories .contentItem .timing .days {
-  width: 45px;
-  height: 50px;
-  background: #606060;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-}
-
-.items .contextItem .categories .contentItem .timing .days h1 {
-  font-size: 19px;
-  padding-top: 10px;
-}
-
-.items .contextItem .categories .contentItem .timing .days p {
-  font-size: 13px;
-}
-
-.items .contextItem .landingPicture {
-  width: 75%;
-  height: inherit;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
-}
-
-.items .contextItem .landingPicture .commerceItems {
-  width: 100%;
-  height: inherit;
-  border-right: 1px solid #DEE2E7;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.items .contextItem .landingPicture .commerceItems .image {
-  height: 150px;
-}
-
-.items .contextItem .landingPicture .commerceItems .image img {
-  width: 90px;
-  margin-left: 40px;
-  margin-top: 30px;
-}
-
-.items .contextItem .landingPicture .commerceItems p {
-  font-size: 17px;
-  margin-left: 40px;
-}
-
-.items .contextItem .landingPicture .commerceItems .price {
-  width: 50px;
-  height: 28px;
-  color: #EB001B;
-  background: #FFE3E3;
-  border-radius: 29px;
-  text-align: center;
-  margin-left: 50px;
-}
-
-.items .contextItem .landingPicture .commerceItems .price p {
-  font-size: 14px;
-  margin-left: 5px;
-  padding-top: 5px;
-}
-
-.cardItem {
-  width: 25%;
-  height: 210px;
-  background-image: url("/img/image92.png");
+.content .items .gadget {
+  background-image: url(/img/image98.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20px;
-  padding-left: 20px;
-  border-right: 1px solid #DEE2E7;
+  margin-left: 0;
+  margin-top: 0;
+  height: inherit;
+  width: 33%;
+  border-right: 1px solid #DADADA;
 }
 
-.products {
-  width: 75%;
-  height: 230px;
+.content .items .gadget .outdoor {
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
-.products .landing {
+.content .items .gadget .outdoor h2 {
+  width: 70%;
+}
+
+.content .items .accessories {
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
 }
 
-.products .landing .commerceItems {
+.content .items .accessories .homeOutdoors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
+}
+
+.content .items .accessories .homeOutdoors .commerce {
+  border-top: 1px solid #DADADA;
+}
+
+.content .items .accessories .homeOutdoors .dealItem {
   height: 115px;
-  border-right: 1px solid #DEE2E7;
-  border-bottom: 1px solid #DEE2E7;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 25%;
+  border-right: 1px solid #DADADA;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools {
+  margin: 10px auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools p {
+  font-size: 16px;
+  height: 30px;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools span {
+  color: #8B96A5;
+  font-size: 14px;
+}
+
+.content .items .accessories .homeOutdoors .dealItem .tools .img {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
