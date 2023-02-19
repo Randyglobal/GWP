@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cantarell:wght@400;700&family=Catamaran:wght@300&family=Inter&family=Lato:wght@700&family=Oswald&family=Outfit:wght@200;300&family=Poppins:wght@100;200;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 90%;
+    height: 60px;
+    margin-left: 70px;
+}
+.field{
+    margin-left: 85px;
+    width: 88%;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.btn {
+    padding: 6px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
