@@ -1,0 +1,40 @@
+.products {
+    height: 570px;
+    border: none;
+
+    .productItem {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        height: 50%;
+
+        .item {
+            width: 18%;
+            height: 95%;
+            border: 1px solid #E0E0E0;
+            border-radius: 6px;
+
+            .image {
+                width: 150px;
+                height: 170px;
+                margin: 10px auto;
+
+                .utils{
+                    margin-left: -15px;
+                }
+            }
+            h5{
+                font-size: 16px;
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+            p{
+                font-size: 14px;
+                width: 70%;
+                color: #8B96A5;  
+                padding-left: 20px;
+
+            }
+        }
+    }
+}

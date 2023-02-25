@@ -1,0 +1,101 @@
+.formContain{
+    height: 400px;
+  background-image: url(/img/pexels-photo-998499.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .topColor{
+    width: 100%;
+    height: inherit;
+    background:linear-gradient(94.99deg, #2C7CF1 7.19%, rgba(0, 209, 255, 0.5) 89.49%);
+    border-radius: 5px;
+    display: flex;
+
+    .description{
+        color: white;
+        width: 50%;
+        height: inherit;
+
+        .formDescription{
+            padding-top: 40px;
+            padding-left: 30px;
+            h1{
+            width: 55%;
+            }
+            p{
+                padding-top: 10px;
+                width: 70%;
+            }
+        }
+    }
+    .form{
+        width: 50%;
+        height: inherit;
+
+        form{
+            width: 450px;
+            height: 300px;
+            background: white;
+            margin-top: 40px;
+            margin-left: 90px;
+            border-radius: 5px;
+
+            .formInfo{
+                width: 85%;
+                margin-left: 33px;
+               padding-top: 20px;
+              .questionaire{
+                margin-top: 10px;
+                input{
+                    width: 100%;
+                    height: 30px;
+                    border-radius: 3px;
+                    border: 1px solid #DEE2E7;
+                    outline: none;
+                    padding-left: 7px;
+
+                    ::placeholder{
+                        color: black;
+                    }
+                }
+              }
+              .sendInfo{
+                margin-top: 20px;
+                textarea{
+                border: 1px solid #DEE2E7;
+                border-radius: 6px;
+                height: 73px;
+                padding-left: 7px;
+                padding-top: 10px;
+                outline: none;
+                width: 100%;
+                }
+              }
+              .quantity{
+                margin-top: 10px;
+                input, select{
+                  padding-left: 7px;
+                    height: 30px;
+                    border-radius: 3px;
+                    border: 1px solid #DEE2E7;
+                    outline: none;
+                }
+                select{
+                    width: 90px;
+                }
+              }
+              .send{
+                padding: 10px;
+                border-radius: 7px;
+                border: none;
+                outline: none;
+                margin-top: 10px;
+                font-size: 16px;
+                background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+                color: white;
+              }
+            }
+        }
+    }
+  }
+}

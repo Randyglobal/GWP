@@ -1,0 +1,114 @@
+.cards {
+    margin-top: 60px;
+    height: 450px;
+    border: none;
+
+    .cardContent {
+        width: 100%;
+        height: 210px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .cardDescription {
+            width: 24%;
+            height: inherit;
+            border: 1px solid #E0E0E0;
+            border-radius: 6px;
+
+            .cardImage {
+                width: 100%;
+                height: 150px;
+                border-top-right-radius: 6px;
+                border-top-left-radius: 6px;
+
+                .imageColor {
+                    position: relative;
+                    width: inherit;
+                    height: inherit;
+                    background-color: rgba(0, 0, 0, 0.342);
+                    border-top-right-radius: 6px;
+                    border-top-left-radius: 6px;
+
+                    .icon {
+                        width: 40px;
+                        height: 40px;
+                        background-color: #a3cdf9;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 8rem;
+                        left: 14rem;
+
+                        svg{
+                            width: 25px;
+                            padding-left: 7px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+
+            .img1 {
+                background-image: url(/img/image108.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .img2 {
+                background-image: url(/img/image104.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .img3 {
+                background-image: url(/img/image106.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .img4 {
+                background-image: url(/img/image107.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            h4{
+                padding-top: 10px;
+                padding-left: 10px;
+                width: 60%;
+            }
+        }
+    }
+    .region{
+        padding-top: 20px;
+    }
+    .regionSuppies{
+        width: 100%;
+        height: 110px;
+        margin-top: 20px;
+        display: flex;
+
+        .cities{
+            width: 20%;
+            height: inherit;
+
+            .image{
+                display: flex;
+                margin-top: 10px;
+                margin-left: 10px;
+                img{
+                 width: 28px;
+                 height: 20px;
+                 margin-top: 5px;
+                    
+                }
+                .cityName{
+                    margin-left: 5px;
+                p{
+                    font-size: 12px;
+                    color: #8B96A5;
+                }
+            }
+            }
+        }
+    }
+}
