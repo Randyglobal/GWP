@@ -1,0 +1,45 @@
+.subsribe{
+    width: 100%;
+    height: 200px;
+    background: rgba(217, 217, 217, 0.179);
+    text-align: center;
+    align-items: center;
+    .field{
+        position: relative;
+        height: 200px;
+        border: none;
+        background: transparent;
+
+        h2{
+            padding-top: 50px;
+        }
+
+        p{
+            color: #606060;
+            font-size: 15px;
+        }
+        input{
+            padding: 6px;
+            border: 1px solid #DEE2E7;
+            border-radius: 6px;
+            outline: none;
+            padding-left: 35px;
+
+            &::placeholder{
+                font-size: 16px;
+            }
+        }
+        button{
+            color: white;
+            background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+            border-radius: 6px;
+        }
+        svg{
+            width: 25px;
+            position: absolute;
+            left: 28rem;
+            top: 7.6rem;
+            color: #606060;
+        }
+    }
+}
