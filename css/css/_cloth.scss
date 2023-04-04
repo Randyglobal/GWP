@@ -1,0 +1,272 @@
+.navigate {
+    height: 40px;
+
+    ul {
+        margin-top: 20px;
+        padding-left: 80px;
+
+        li {
+            list-style: none;
+            display: inline;
+            padding-left: 10px;
+
+            a {
+                color: #8B96A5;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+
+        i {
+            color: #8B96A5;
+            font-size: 15px;
+        }
+    }
+}
+
+.accessories {
+    height: 250vh;
+    background: rgba(255, 254, 254, 0.31);
+    display: flex;
+    justify-content: space-between;
+
+    .categories {
+        width: 20%;
+        height: inherit;
+
+        .listCategory {
+            margin-top: 10px;
+            width: 93%;
+            float: right;
+            border-top: 1px solid gray;
+
+            .collapse {
+                display: flex;
+                justify-content: space-between;
+
+                i {
+                    padding-top: 5px;
+                }
+            }
+
+            .list {
+                .button {
+                    margin-top: 10px;
+                    margin-left: 30%;
+                    color: blue;
+                }
+
+                .horizontal {
+                    width: 99%;
+                    height: 4px;
+                    background: #AFD0FF;
+                    margin-top: 30px;
+
+                    .bar {
+                        width: 45%;
+                        height: inherit;
+                        background: blue;
+                        margin-left: 60px;
+                    }
+                }
+
+                .maxMin {
+                    margin-top: 20px;
+                    margin-left: -20px;
+                    display: flex;
+                    justify-content: space-around;
+
+                    input {
+                        padding: 4px;
+                        width: 80px;
+                        border: 1px solid gray;
+                        border-radius: 5px;
+                    }
+                }
+
+                ul {
+                    margin-top: 10px;
+
+                    li {
+                        list-style: none;
+                        margin-top: 10px;
+
+                        a {
+                            text-decoration: none;
+                            color: #505050;
+                        }
+                    }
+
+                    input {
+                        margin-top: 10px;
+                    }
+
+                    span {
+                        color: #505050;
+
+                        .fa-solid {
+                            color: orange;
+                        }
+                    }
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-size: 15px;
+                    color: #0D6EFD;
+                }
+            }
+
+        }
+
+        .spaced {
+            margin-top: 20px;
+        }
+
+    }
+
+    .mobileAccessories {
+        width: 78%;
+        height: inherit;
+
+        .items {
+            width: 100%;
+            height: 50px;
+            border: 1px solid rgba(200, 200, 200, 0.803);
+            background: white;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+           .menu{
+            width: 32%;
+            input,span, select{
+                margin-left: 10px;
+            }
+           select{
+            padding: 6px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid gray;
+           }
+           button{
+            padding: 2px;
+            margin-left: 5px;
+           }
+           }
+        }
+
+        .item {
+            display: flex;
+            margin-top: 20px;
+            width: 100%;
+            height: 200px;
+            background: white;
+            border: 1px solid rgba(200, 200, 200, 0.803);
+
+            .image {
+                width: 20%;
+                height: inherit;
+                background-image: url(/img/technique.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .description {
+                width: 70%;
+                height: inherit;
+                h4{
+                    margin-top: 10px;
+                }
+
+                .paragraph {
+                    width: 85%;
+                    height: inherit;
+                    float: right;
+                }
+
+                .stars {
+                    margin-top: 10px;
+                    .status {
+                        color: rgb(2, 197, 2);
+                        font-size: 16px;
+                    }
+
+                    .order {
+                        color: rgba(195, 195, 195, 0.823);
+                    }
+
+                    .digit {
+                        color: orange;
+                    }
+
+                    .fa-solid {
+                        color: orange;
+                    }
+                }
+
+                    .price {
+                        margin-top: 20px;
+                    }
+                    .context{
+                        margin-top: 10px;
+                    }
+                    details{
+                        margin-top: 10px;
+                        color: blue;
+                    }
+            }
+
+            .icon {
+                width: 10%;
+                height: inherit;
+
+                .heartIcon{
+                    width: 30px;
+                    height: 35px;
+                    border-radius: 10px;
+                    border: 1px solid rgb(203, 203, 203);
+                    margin-left: 50px;
+                    margin-top: 10px;
+                    text-align: center;
+
+                    i{
+                        padding-top: 10px;
+                        color: blue;
+                    }
+                }
+            }
+        }
+
+        .next{
+            display: flex;
+            width: 26%;
+            margin-top: 20px;
+            float: right;
+            justify-content: space-between;
+            select{
+                padding: 5px;
+                border: 1px solid rgb(195, 195, 195);
+                outline: none;
+                border-radius: 5px;
+            }
+            .nextButtons{
+                display: flex;
+                justify-content: unset;
+                .btnGroup{
+                    width: 30px;
+                    padding: 5px;
+                    outline: none;
+                    text-align: center;
+                    align-items: center;
+                    background: white;
+                    border: 1px solid rgb(204, 203, 203);
+                }
+                .active{
+                    background: rgb(212, 211, 211);
+                }
+            }
+        }
+    }
+}

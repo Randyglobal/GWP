@@ -973,6 +973,315 @@
   color: #606060;
 }
 
+.navigate {
+  height: 40px;
+}
+
+.navigate ul {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.navigate ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+
+.navigate ul li a {
+  color: #8B96A5;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navigate ul i {
+  color: #8B96A5;
+  font-size: 15px;
+}
+
+.accessories {
+  height: 250vh;
+  background: rgba(255, 254, 254, 0.31);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accessories .categories {
+  width: 20%;
+  height: inherit;
+}
+
+.accessories .categories .listCategory {
+  margin-top: 10px;
+  width: 93%;
+  float: right;
+  border-top: 1px solid gray;
+}
+
+.accessories .categories .listCategory .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accessories .categories .listCategory .collapse i {
+  padding-top: 5px;
+}
+
+.accessories .categories .listCategory .list .button {
+  margin-top: 10px;
+  margin-left: 30%;
+  color: blue;
+}
+
+.accessories .categories .listCategory .list .horizontal {
+  width: 99%;
+  height: 4px;
+  background: #AFD0FF;
+  margin-top: 30px;
+}
+
+.accessories .categories .listCategory .list .horizontal .bar {
+  width: 45%;
+  height: inherit;
+  background: blue;
+  margin-left: 60px;
+}
+
+.accessories .categories .listCategory .list .maxMin {
+  margin-top: 20px;
+  margin-left: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.accessories .categories .listCategory .list .maxMin input {
+  padding: 4px;
+  width: 80px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.accessories .categories .listCategory .list ul {
+  margin-top: 10px;
+}
+
+.accessories .categories .listCategory .list ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.accessories .categories .listCategory .list ul li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.accessories .categories .listCategory .list ul input {
+  margin-top: 10px;
+}
+
+.accessories .categories .listCategory .list ul span {
+  color: #505050;
+}
+
+.accessories .categories .listCategory .list ul span .fa-solid {
+  color: orange;
+}
+
+.accessories .categories .listCategory .list p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #0D6EFD;
+}
+
+.accessories .categories .spaced {
+  margin-top: 20px;
+}
+
+.accessories .mobileAccessories {
+  width: 78%;
+  height: inherit;
+}
+
+.accessories .mobileAccessories .items {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(200, 200, 200, 0.803);
+  background: white;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accessories .mobileAccessories .items .menu {
+  width: 32%;
+}
+
+.accessories .mobileAccessories .items .menu input, .accessories .mobileAccessories .items .menu span, .accessories .mobileAccessories .items .menu select {
+  margin-left: 10px;
+}
+
+.accessories .mobileAccessories .items .menu select {
+  padding: 6px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.accessories .mobileAccessories .items .menu button {
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.accessories .mobileAccessories .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background: white;
+  border: 1px solid rgba(200, 200, 200, 0.803);
+}
+
+.accessories .mobileAccessories .item .image {
+  width: 20%;
+  height: inherit;
+  background-image: url(/img/technique.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accessories .mobileAccessories .item .description {
+  width: 70%;
+  height: inherit;
+}
+
+.accessories .mobileAccessories .item .description h4 {
+  margin-top: 10px;
+}
+
+.accessories .mobileAccessories .item .description .paragraph {
+  width: 85%;
+  height: inherit;
+  float: right;
+}
+
+.accessories .mobileAccessories .item .description .stars {
+  margin-top: 10px;
+}
+
+.accessories .mobileAccessories .item .description .stars .status {
+  color: #02c502;
+  font-size: 16px;
+}
+
+.accessories .mobileAccessories .item .description .stars .order {
+  color: rgba(195, 195, 195, 0.823);
+}
+
+.accessories .mobileAccessories .item .description .stars .digit {
+  color: orange;
+}
+
+.accessories .mobileAccessories .item .description .stars .fa-solid {
+  color: orange;
+}
+
+.accessories .mobileAccessories .item .description .price {
+  margin-top: 20px;
+}
+
+.accessories .mobileAccessories .item .description .context {
+  margin-top: 10px;
+}
+
+.accessories .mobileAccessories .item .description details {
+  margin-top: 10px;
+  color: blue;
+}
+
+.accessories .mobileAccessories .item .icon {
+  width: 10%;
+  height: inherit;
+}
+
+.accessories .mobileAccessories .item .icon .heartIcon {
+  width: 30px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #cbcbcb;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.accessories .mobileAccessories .item .icon .heartIcon i {
+  padding-top: 10px;
+  color: blue;
+}
+
+.accessories .mobileAccessories .next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26%;
+  margin-top: 20px;
+  float: right;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accessories .mobileAccessories .next select {
+  padding: 5px;
+  border: 1px solid #c3c3c3;
+  outline: none;
+  border-radius: 5px;
+}
+
+.accessories .mobileAccessories .next .nextButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.accessories .mobileAccessories .next .nextButtons .btnGroup {
+  width: 30px;
+  padding: 5px;
+  outline: none;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border: 1px solid #cccbcb;
+}
+
+.accessories .mobileAccessories .next .nextButtons .active {
+  background: #d4d3d3;
+}
+
 .footerFluid {
   height: 350px;
   border: none;
